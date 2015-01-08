@@ -1941,11 +1941,15 @@ namespace FontAwesome.WPF {
 		[IconCategory("Web Application Icons")]
 		[Description("Male")]
 		Male = 0xf183,
-		///<summary>Gittip (created: 3.2)</summary>
-		///<see cref="http://fontawesome.io/icon/gittip/" />
+		///<summary>Gratipay (Gittip) (created: 3.2)</summary>
+		///<see cref="http://fontawesome.io/icon/gratipay/" />
 		[IconCategory("Brand Icons")]
-		[Description("Gittip")]
-		Gittip = 0xf184,
+		[Description("Gratipay (Gittip)")]
+		Gratipay = 0xf184,
+		///<summary>Alias of: Gratipay</summary>
+		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Gratipay" />
+		[IconAlias]
+		Gittip = Gratipay,
 		///<summary>Sun Outlined (created: 3.2)</summary>
 		///<see cref="http://fontawesome.io/icon/sun-o/" />
 		[IconCategory("Web Application Icons")]
